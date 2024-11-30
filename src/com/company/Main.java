@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Задание 1");
 
-        for (int i = 1; i < 10; i++){
+        for (int i = 1; i <= 10; i++){
             System.out.println(i);
         }
 
@@ -17,7 +17,7 @@ public class Main {
 
         System.out.println("Задание 3");
 
-        for (int i = 0; i < 17; i ++){
+        for (int i = 0; i <= 17; i ++){
             if (i % 2 == 0) {
                 System.out.println(i);
             }
@@ -31,7 +31,7 @@ public class Main {
 
         System.out.println("Задание 5");
 
-        for (int year = 1904; year < 2096; year++){
+        for (int year = 1904; year <= 2096; year++){
         if ((year % 4 == 0) && year % 100 != 0 || (year % 400 == 0)) {
             System.out.println(year);
             }
@@ -39,7 +39,7 @@ public class Main {
 
         System.out.println("Задание 6");
 
-        for (int i = 0; i < 100; i+=7){
+        for (int i = 0; i <= 98; i+=7){
             System.out.println(i);
         }
 
@@ -52,10 +52,11 @@ public class Main {
         System.out.println("Задание 8");
         int stock = 29000;
         int sum = 0;
-        for (int i = 0; i < 12; i++){
+        for (int i = 1; i <= 12; i++){
             sum = sum + stock;
+            System.out.println("Месяц " + i + " сумма накоплений равна " + sum + " рублей");
         }
-        System.out.println(sum);
+
 
         System.out.println("Задание 9");
 
